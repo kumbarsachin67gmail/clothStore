@@ -1,0 +1,137 @@
+.btn,
+.jumbotron,
+.nav:hover{
+    border-radius:0px;
+}
+:root{
+    --mainBlue:#14131f;
+    --lightBlue:#009ffd;
+    
+    --mainWhite:hsla(40, 7%, 67%, 0.993);
+    --mainDark:#232528;
+    --mainYellow:#ffa400;
+  }
+body
+{
+  font-family: "oswald" !important;
+  /* background: var(--mainWhite) !important; */
+  background:hsla(60, 1%, 15%, 0.993);
+  /* color:white; */
+  /* color:rgb(24, 20, 20) !important; */
+  /* color:rgb(17, 17, 17) !important; */
+  color:rgb(255, 255, 255) !important;
+  /* background: var(--mainYellow) !important; */
+  
+  
+}
+
+/**
+ * single product page - product name
+ */
+
+ .name {
+    /* background: indigo; */
+    background: indigo;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+    background: #f2f2f2;
+}
+.black-9 {
+    background: #e6e6e6;
+}
+.black-8 {
+    background: #d9d9d9;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
+
+.cart-badge, .cart-badge:hover{
+    /* background:rgb(0, 69, 116); */
+    background:rgb(0, 69, 116);
+    font-style: italic;
+    padding: 3px;
+    font-size: 12px;
+    border-radius:50%;
+}
+
+.product-img{
+    min-height: 100px;
+}
+
+/* .jumbotron {
+    width: 30wh;
+    height: 30vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+} */
+.jumbotron {
+    width: 30wh;
+    height: 30vh;
+    color: #fff;
+    background: hsla(40, 6%, 10%, 0.993);
+    background-size: 100% 100%;
+    /* -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite; */
+}
+ 
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+} 
+.carttext{
+    color:black!important
+} 
+.cartwhite{
+    color:white!important
+}
+
+
+
